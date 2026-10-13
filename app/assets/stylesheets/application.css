@@ -1,0 +1,60 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+
+ body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: DarkSlateGray;
+ }
+
+ #main{
+    padding: 20px;
+ }
+
+ h1{
+    color: maroon;
+ }
+
+ table#movies {
+  margin: 10px 0;
+  border-collapse: collapse;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+table#movies th {
+  border: 2px solid white;
+  background-color: wheat;
+}
+
+table#movies th,
+table#movies td {
+  padding: 4px;
+  text-align: left;
+}
+#notice, #warning {
+  background: rosybrown;
+  margin: 1em 0;
+  padding: 4px;
+}
+
+a {
+  color: maroon;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+form label {
+  display: block;
+  line-height: 25px;
+  font-weight: bold;
+  color: maroon;
+}
